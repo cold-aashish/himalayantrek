@@ -1,0 +1,377 @@
+.footer-bg{
+    background: url('../../img/backgrounds/footer-bg.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.footer-overlay{
+    background-color: #3360c4d6;
+}
+
+.custom-cta{
+    background: url('../../img/backgrounds/nepal-bg.png');
+    background-size: cover;
+    background-blend-mode: lighten;
+}
+
+.custom-blockguide{
+    margin-top: -100px;
+    background-color: #fff;
+}
+
+.pl-0{
+    padding-left: 0;
+}
+.pr-0{
+    padding-right: 0;
+}
+
+.icon-container::before{
+    position: absolute;
+    content: "";
+    left: calc(50% - -1px);
+    top: 47px;
+    width: 60px;
+    height: 60px;
+    background-color: #fdab4652;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.lh-15{
+    line-height: 15px;
+}
+.custom-card-type-1{
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: -5px;
+    padding-top: 14px;
+}
+.custom-card-type-2{
+    box-shadow: 0px 10px 60px 0px rgba(5, 16, 54, 0.0509803922);
+    margin-top: -15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+.custom-card-type-3{
+    box-shadow: 0px 10px 60px 0px rgba(5, 16, 54, 0.0509803922);
+    margin-top: -15px;
+    padding: 24px;
+    margin-bottom: 40px;
+}
+
+.custom-social{
+    background-color: #224697;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    display: grid;
+    text-align: center;
+}
+
+.custom-iterinary{
+    margin-bottom: 14px;
+    background-color: #14539a;
+    width: max-content;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 13px;
+    padding: 4px 10px;
+    margin-left: -8px;
+}
+.iterinary-highlights{
+    background-color: #14539a0d;
+    padding: 1px 10px;
+    border-bottom: 1px solid #14539a;
+    width: 100%;
+margin-top: 20px;
+}
+
+.right-content{
+    position: sticky;
+    top: 100px;
+    margin-bottom: 48px;
+}
+.left-icon{
+    height: 60px;
+    width: 60px;
+    min-width: 60px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: rgba(0,0,0,.08) 0 0 18px;
+    margin-right: 20px;
+    padding-top: 15px;
+}
+
+.custom-features-box{
+    background: #3554d117;
+    padding: 16px 32px;
+    border-radius: 12px;
+    .heading{
+        font-weight: 700;
+        color: $main-color;
+    }
+    .heading-sm{
+        font-weight: 500;
+        color: $main-color;
+    }
+}
+.icon-bg{
+    padding: 1px;
+    position: relative;
+    background-color: $main-color;
+    border-radius: 50%;
+    i{
+        color: white;
+    }
+}
+
+.icon-bg-2{
+    padding: 17px;
+    position: absolute;
+    left: 12px;
+    top: 5px;
+    background-color: rgb(254 179 76 / 36%);
+    border-radius: 50%;
+}
+
+
+.custom-facilities{
+background: #3554d117;
+    padding: 28px;
+
+}
+
+.custom-border-bottom{
+    border-bottom: 1px solid #163c8c47 ;
+}
+.border-blockguide{
+    box-shadow: 0px 0px 0px 1px rgba(50, 20, 20, 0.0705882353);
+}
+.about-block{
+    background: #3360c424;
+}
+
+.teamCard.-type-1 {
+    padding: 8px;
+    margin-bottom: 24px;
+    .teamCard {
+        &__image {
+            overflow: hidden;
+
+            img {
+                transition: all 0.3s $easeOutQuart;
+                height: 300px;
+                object-fit: cover;
+            }
+        }
+    }
+
+    &:hover {
+        .teamCard {
+
+            &__image {
+                img {
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+}
+
+.blogCard.-type-1 {
+    padding: 8px;
+    margin-bottom: 24px;
+    .blogCard {
+        &__image {
+            overflow: hidden;
+
+            img {
+                transition: all 0.3s $easeOutQuart;
+                height: 300px;
+                object-fit: cover;
+            }
+        }
+    }
+
+    &:hover {
+        .blogCard {
+
+            &__image {
+                img {
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+}
+.accordion-item{
+    border-radius: 0 !important;
+    .accordion-header{
+        @extend .accordion-item;
+    }
+}
+.custom-accordion-button{
+    font-size: 22px !important;
+    background-color: $main-color-1;
+    border-bottom: 1px solid $main-color-3;
+&:focus{
+    background-color: $main-color-4;
+    border: 0;
+    box-shadow: 0;
+}
+}
+
+.img-container{
+    border: 1px solid $main-color-1;
+    padding: 12px;
+    margin-bottom: 16px;
+}
+
+.custom-affiliation{
+    border-bottom: 1px solid $main-color-2;
+    margin-bottom: 1rem;
+    padding: 16px 100px;
+}
+
+.custom-partner-list {
+padding-left: 38px;
+    li{
+        list-style: disc;
+    }
+
+}
+.custom-input-field{
+    border-radius: 0;
+    background-color: $main-color-1 !important;
+}
+
+.btn-submit{
+    background-color: $main-color;
+    padding: 8px 12px;
+    color: white;
+    border-radius: 0;
+    &:hover{
+        opacity: 0.9;
+        background-color: $main-color;
+        color: white;
+    }
+}
+
+.team-meta{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #a4b0bc0f;
+    border: 1px solid #dddddd4d;
+    margin-top: -5px;
+}
+.blog-meta{
+    padding: 16px 8px;
+    background-color: #a4b0bc0f;
+    border: 1px solid #dddddd4d;
+    margin-top: -5px;
+}
+
+.contact-bg{
+img{
+    height: 250px;
+}
+}
+
+.blog-image-custom{
+    max-height: 200px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.transparent-button{
+    background: transparent !important;
+}
+.contact-header{
+    background-color: #163c8c;
+}
+.contact-bg-image{
+    width: 100%;
+    height: 890 px;
+    object-fit: cover;
+    position: absolute;
+    object-position: top;
+    top:0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.2;
+}
+.mt-48{
+    margin-top: 48px;
+}
+
+.form-booking-card{
+    box-shadow: 2px 4px 8px #ecebeb;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    padding: 32px;
+    .booking-label{
+        font-size: 22px;
+        font-weight: 600;
+    }
+    input{
+        border: 1px solid #ccc;
+    }
+}
+
+.border-right-custom{
+    border-right: 1px solid #ecebeb;
+}
+
+.payment-booking-card{
+    box-shadow: 2px 4px 8px #ecebeb;
+    padding:24px 38px;
+    background-color:#3360c41c ;
+    .items{
+        background-color: rgb(51 96 196 / 4%);
+        padding: 12px 16px;
+        .item-title{
+            font-weight: 700;
+            font-size: 18px;
+            color: $main-color;
+        }
+    }
+}
+
+.color-main{
+    color: $main-color !important;
+}
+.margin-auto-custom{
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.reviews{
+border: 1px solid $main-color-2;
+}
+
+.reviews-text{
+    height: 150px;
+    overflow-y: scroll;
+}
+
+.affiliation-image{
+    &:hover{
+        transform: scale(1.05);
+        transition: ease-in-out .3s;
+    }
+}
+.sticky{
+    position: sticky;
+    top: 90px;
+}
+.booking-sidebar{
+    margin-left: 0;
+    margin-top: 1rem;
+}
