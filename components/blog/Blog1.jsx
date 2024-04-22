@@ -14,7 +14,7 @@ const Blog1 = () => {
 
         <div className="row y-gap-30 pt-30">
             {blogsData.map((item) => (
-            <div className="col-lg-4 col-sm-6" key={item.id}>
+            <div className="col-lg-4 col-sm-6  pb-0" key={item.id}>
               <Link
                 href={`/blog-details/${item.id}`}
                 className="blogCard -type-1 d-block "

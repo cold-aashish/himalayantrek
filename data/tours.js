@@ -4,7 +4,7 @@ module.exports = [
     tag: "LIKELY TO SELL OUT*",
     slideImg: ["/img/tours/1.png"],
     title: "Ghorepani Poonhill Ghandruk Treks",
-    location: "Westminster Borough, London",
+    location: "Poonhill, Nepal",
     duration: "48",
     numberOfReviews: "3014",
     price: "72",

@@ -1,8 +1,5 @@
 .footer-bg{
-    background: url('../../img/backgrounds/footer-bg.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
+    background-color: $main-color-3 !important;
 }
 .footer-overlay{
     background-color: #3360c4d6;
@@ -94,7 +91,7 @@ margin-top: 20px;
 
 .right-content{
     position: sticky;
-    top: 100px;
+    top: 140px;
     margin-bottom: 48px;
 }
 .left-icon{
@@ -273,10 +270,27 @@ padding-left: 38px;
     margin-top: -5px;
 }
 .blog-meta{
-    padding: 16px 8px;
-    background-color: #a4b0bc0f;
-    border: 1px solid #dddddd4d;
+    padding: 16px 15px;
+    background-color: #fff;
+    /* border: 1px solid rgba(221, 221, 221, 0.3019607843); */
     margin-top: -5px;
+    border-radius: 0px 0px 16px 16px;
+    box-shadow: 0 10px 60px 0 rgba(5,16,54,.051);
+    border: 1px solid #f3f3f3;
+}
+.blogCard.-type-1{
+    border-radius: 16px 16px 0 0;
+}
+.blogCard.-type-1 .blogCard__image img{
+    border-radius: 16px 16px 0 0;
+}
+
+.blogCard.-type-1{
+    margin-bottom: 0 !important;
+}
+.size-100{
+    width: 100px;
+    height: 100px;
 }
 
 .contact-bg{
@@ -293,20 +307,22 @@ img{
 
 .transparent-button{
     background: transparent !important;
+    &:hover{
+        background: $main-color !important;
+    }
 }
 .contact-header{
     background-color: #163c8c;
 }
 .contact-bg-image{
     width: 100%;
-    height: 890 px;
     object-fit: cover;
     position: absolute;
-    object-position: top;
+    object-position: bottom;
     top:0;
-    left: 0;
+    left: -10%;
     z-index: -1;
-    opacity: 0.2;
+    opacity: 0.1;
 }
 .mt-48{
     margin-top: 48px;
@@ -374,4 +390,279 @@ border: 1px solid $main-color-2;
 .booking-sidebar{
     margin-left: 0;
     margin-top: 1rem;
+}
+.contact-address{
+    padding: 16px;
+    box-shadow: 0px 10px 60px 0px rgba(5, 16, 54, 0.0509803922);
+    border-radius: 4px;
+    margin-top: 16px;
+    background-color: #fff;
+}
+.contact-title{
+    color: $main-color;
+}
+
+.contact-item{
+    margin-bottom: 8px;
+    padding: 4px 12px;
+    margin-bottom: 1rem;
+    background-color: $main-color-1;
+}
+
+.footer-content{
+    padding: 32px;
+    border-radius: 20px;
+}
+
+.bg-footer{
+    background: url('../../img/pages/contact/footersvg.svg');
+    background-size: contain;
+    background-position: bottom;
+    background-repeat:no-repeat ;
+    width: 100%;
+}
+.footer-logo-contact{
+    background: $main-color-7;
+    padding: 0px 0px 20px 20px;
+    border-radius: 0px 0px 20px 20px;
+    margin-top: -93px;
+    padding-top: 50px;
+}
+.bg-blue-3{
+    background: rgba(51, 96, 196, 0.15);
+}
+
+
+.custom-dropdown-menu{
+    padding: 16px;
+    background: #eee;
+    li{
+        a{
+            &:hover{
+                background: $main-color;
+            }
+        }
+
+    }
+    a{
+        color: $main-color;
+        font-weight: 700;
+        border-bottom: 1px solid #ccc;
+        &:hover{
+            color: white;
+        }
+    }
+
+}
+
+.bg-image-booking{
+    object-fit: cover;
+}
+.available-date-card{
+    border: 1px solid $main-color-2;
+    border-radius: 12px;
+    padding: 8px 12px;
+    text-align: center;
+    gap: 8px;
+    .from, .to{
+        color: black;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    &:hover{
+        background: $main-color-1;
+        cursor: pointer;
+    }
+}
+
+.home-topbar{
+    background: $main-color;
+    color: white;
+    @media screen and (max-width:768px){
+        display: none !important;
+    }
+}
+
+.topbar-content{
+    color: white;
+    font-size: 16px;
+}
+
+.currency-box{
+    background: white;
+    color: $main-color;
+    padding: 4px;
+}
+
+.inquiry-button{
+    background: $second-color;
+    &:hover{
+        background: $main-color !important;
+    }
+}
+
+.custom-button-hover{
+    background: $main-color;
+    &:hover{
+        opacity: 0.9;
+    }
+}
+
+.icon-background{
+    &-green{
+        background: #1e851e;
+        width: 20px;
+        height: 20px;
+        position: relative;
+        img{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+    }
+    &-red{
+        background: #de4747;
+        width: 20px;
+        height: 20px;
+        position: relative;
+        img{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+    }
+    &-blue{
+        background: $main-color;
+        width: 20px;
+        height: 20px;
+        position: relative;
+        img{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+    }
+
+}
+
+#tripTypeTabContent{
+    border: 1px solid $main-color-2;
+    margin: 32px;
+    margin-top: 0;
+    padding: 12px;
+}
+
+#tripType{
+    background-color: $main-color-1;
+    .active{
+        background-color: $main-color;
+        color: white;
+        border-radius: 0;
+    }
+}
+
+.inquiry-form{
+    box-shadow: 2px 2px 5px #ccc;
+    padding: 32px;
+    border-radius: 12px;
+}
+
+.text-blue{
+    color: black;
+}
+
+.mt-minus-60{
+    margin-top: -60px;
+}
+.bg-main-color{
+    background-color: $main-color-6 ;
+}
+.bg-primary-color{
+    background-color: $main-color;
+}
+.bg-second-color{
+    background-color: $second-color;
+}
+.bg-gradient {
+background-color: $main-color-8;
+}
+
+.mt-100{
+    margin-top: 32px;
+}
+
+.custom-card{
+    margin: 48px;
+    border: 1px solid $main-color-2;
+}
+
+.action-icon-bg{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    &_edit{
+        background: #163c8c;
+    }
+    &_delete{
+        background: #8c161a;
+    }
+    &_view{
+        background: #136e05;
+    }
+    i{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: white;
+        font-size: 12px;
+    }
+}
+
+.do-payment-methods{
+    background-color: white;
+    padding: 16px;
+    border-radius: 14px;
+}
+
+.payment-image-container{
+    background-color: $main-color-1 ;
+    min-height: 150px;
+    border-radius: 14px;
+    position: relative;
+    img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+}
+
+.custom-height-scroll{
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.uploaded-documents-container{
+    padding: 8px;
+
+    background: $main-color-1;
+    margin-top: 12px;
+    width: 200px;
+}
+
+.tabs__button{
+    color: #3f3f3f;
+    padding: 6px 8px;
+    margin-right: 0;
+}
+
+::-webkit-scrollbar{
+    background: $main-color-4;
+    height: 3px;
+    font-size: 8px !important;
 }

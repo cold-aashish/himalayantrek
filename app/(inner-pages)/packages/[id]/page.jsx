@@ -12,7 +12,7 @@ import React from "react";
 
 
 export const metadata = {
-    title: `${toursPackageData?.title?.slice(0, 30)}`,
+    title: `Tour Packages`,
     description: "Tour Packages",
 };
 

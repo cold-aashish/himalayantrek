@@ -97,10 +97,10 @@ const Index = () => {
       </div>
       {/* End stepper header part */}
 
-      <div className="row">{renderStep()}</div>
+      <div className="row justify-center">{renderStep()}</div>
       {/* End main content */}
 
-      <div className="row x-gap-20 y-gap-20 pt-20">
+      <div className="row justify-center x-gap-20 y-gap-20 pt-20">
         <div className="col-auto">
           <button
             className="button h-60 px-24 -blue-1 bg-light-2"

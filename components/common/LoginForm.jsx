@@ -41,7 +41,7 @@ const LoginForm = () => {
         <button
           type="submit"
           href="#"
-          className="button py-20 -dark-1 bg-blue-1 text-white w-100"
+          className="button py-20 custom-button-hover text-white w-100"
         >
           Sign In <div className="icon-arrow-top-right ml-15" />
         </button>

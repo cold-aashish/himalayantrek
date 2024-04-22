@@ -36,8 +36,8 @@ const WhyChooseUs = () => {
 
       <div className="container">
         <div className="row">
-          <div className="col-xl-4 col-md-7">
-            <h2 className="text-40 fw-600">Why be a Local Expert</h2>
+          <div className="col-xl-5 col-md-7">
+            <h2 className="text-40 fw-600">Why Choose Nepalhaven</h2>
             <p className="mt-5">
               These popular destinations have a lot to offer
             </p>

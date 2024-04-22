@@ -15,7 +15,7 @@ const Social = () => {
           key={item.id}
           className="custom-social me-2"
         >
-          <i className={`${item.icon} text-16`} />
+          <i className={`${item.icon} text-16 text-white`} />
         </a>
       ))}
     </>

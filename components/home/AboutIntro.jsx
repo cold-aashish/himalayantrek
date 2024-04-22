@@ -1,16 +1,22 @@
 const AboutIntro = () => {
   return (
     <section className="section-bg layout-pt-lg layout-pb-lg">
-      <div className="section-bg__item -right -w-1165 bg-light-2" />
+      <div className="section-bg__item -right -w-1165 bg-blue-3" />
       <div className="section-bg__item -video-left">
         <div className="row y-gap-30">
           <div className="col-sm-6">
-            <img src="/img/video/1.png" alt="image" />
+            <img src="/img/video/nepal-1.jpg" alt="image"/>
           </div>
           {/* End .col */}
 
           <div className="col-sm-6">
-            <img src="/img/video/2.png" alt="image" />
+            <img src="/img/video/nepal-2.jpg" alt="image"/>
+          </div>
+          <div className="col-sm-6">
+            <img src="/img/video/nepal-3.jpg" alt="image"/>
+          </div>
+          <div className="col-sm-6">
+            <img src="/img/video/nepal-4.jpg" alt="image"/>
           </div>
         </div>
         {/* End .row */}
@@ -32,7 +38,7 @@ const AboutIntro = () => {
             <div className="d-inline-block mt-40 lg:mt-30 sm:mt-20">
               <a
                 href="#"
-                className="button -md -blue-1 bg-yellow-1 text-dark-1"
+                className="button -md -blue-1 bg-blue-1 text-white"
               >
                 Learn More <div className="icon-arrow-top-right ml-15" />
               </a>

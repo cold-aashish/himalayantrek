@@ -14,28 +14,69 @@ const MainFilterSearchBox = () => {
         data-aos-delay="600"
       >
         <div className="button-grid items-center">
-          <LocationSearch />
-          {/* End Location */}
-
-          <div className="searchMenu-date px-30 lg:py-20 lg:px-0 js-form-dd js-calendar">
+          <div className="searchMenu-location px-30 lg:py-20 lg:px-0">
             <div>
               <h4 className="text-15 fw-500 ls-2 lh-16">
-                Check in - Check out
+                Destination
               </h4>
-              <DateSearch />
+              <select name="trip-type" id="trip-type-select">
+                <option value="select" selected disabled className="text-secondary">Select Your Destination</option>
+                <option value="select">Nepal</option>
+                <option value="select">Tibet</option>
+                <option value="select">Bhutan</option>
+              </select>
             </div>
           </div>
           {/* End check-in-out */}
 
-          <GuestSearch />
-          {/* End guest */}
+          {/* End Location */}
+
+          <div className="searchMenu-type px-30 lg:py-20 lg:px-0">
+            <div>
+              <h4 className="text-15 fw-500 ls-2 lh-16">
+                Trip Type
+              </h4>
+              <select name="trip-type" id="trip-type-select">
+                <option value="select" selected disabled className="text-secondary">Select Your Trip Type</option>
+                <option value="select">Guided Backpacking Trip</option>
+                <option value="select">Camping/Hiking Tour</option>
+                <option value="select">Cultural Sightseeing</option>
+                <option value="select">Basecamp Tour</option>
+                <option value="select">Mountain Expedition</option>
+                <option value="select">Yoga and Pilgrimage</option>
+              </select>
+            </div>
+          </div>
+          {/* End check-in-out */}
+          <div className="searchMenu-type px-30 lg:py-20 lg:px-0">
+            <div>
+              <h4 className="text-15 fw-500 ls-2 lh-16">
+                Month
+              </h4>
+              <select name="trip-type" id="trip-type-select">
+                <option value="select" selected disabled className="text-secondary">Select Month</option>
+                <option value="select">January</option>
+                <option value="select">February</option>
+                <option value="select">March</option>
+                <option value="select">April</option>
+                <option value="select">May</option>
+                <option value="select">June</option>
+                <option value="select">July</option>
+                <option value="select">August</option>
+                <option value="select">September</option>
+                <option value="select">October</option>
+                <option value="select">November</option>
+                <option value="select">December</option>
+              </select>
+            </div>
+          </div>
 
           <div className="button-item">
             <button
-              className="mainSearch__submit button -dark-1 py-15 px-35 h-60 col-12 rounded-4 bg-blue-1 text-white"
-              onClick={() => Router.push("/tour-list-v1")}
+                className="mainSearch__submit button custom-button-hover py-15 px-35 h-60 col-12 rounded-4 bg-blue-1 text-white"
+                onClick={() => Router.push("/")}
             >
-              <i className="icon-search text-20 mr-10" />
+              <i className="icon-search text-20 mr-10"/>
               Search
             </button>
           </div>

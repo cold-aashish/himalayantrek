@@ -159,7 +159,7 @@ const home_5 = () => {
       </section>
 
 
-      <section className="layout-pt-md layout-pb-md bg-light-2">
+      <section className="layout-pt-md layout-pb-md bg-blue-3">
         <div className="container">
           <div className="row y-gap-20 justify-center text-center">
             <div className="col-auto">
@@ -221,7 +221,7 @@ const home_5 = () => {
      
 
 
-      <section className="section-bg layout-pt-md md:pt-0 md:pb-60 sm:pb-40 layout-pb-md bg-blue-1-05">
+      <section className="section-bg layout-pt-md md:pt-0 md:pb-60 sm:pb-40 layout-pb-md bg-blue-3">
         <WhyChooseUs />
       </section>
       {/* End Why choose Section */}
@@ -232,7 +232,7 @@ const home_5 = () => {
 
     
 
-      <section className="layout-pt-md layout-pb-md bg-dark-3">
+      <section className="layout-pt-md layout-pb-md bg-gradient">
         <div className="container">
           <div className="row y-gap-60">
             <div className="col-xl-5 col-lg-6">

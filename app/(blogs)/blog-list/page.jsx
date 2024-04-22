@@ -22,7 +22,7 @@ const BlogList = () => {
           <DefaultHeader/>
           {/* End Header 1 */}
 
-          <section className="section-bg layout-pt-md layout-pb-md">
+          <section className="section-bg layout-pt-lg layout-pb-md">
               <div className="section-bg__item col-12">
                   <Image
                       width={1920}

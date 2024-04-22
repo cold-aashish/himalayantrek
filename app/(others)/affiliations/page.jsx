@@ -36,7 +36,7 @@ const BlogListV1 = () => {
                             <h1 className="text-50 md:text-25 fw-600 text-white">
                                 Our Affiliations
                             </h1>
-                            <div className="text-white mt-15">
+                            <div className="text-white">
                                 Nepalhaven embodies the vision of sharing the allure of Himalayan travel with the world
                                 and facilitating visitors in crafting enduring memories.
                             </div>

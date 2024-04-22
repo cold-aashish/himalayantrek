@@ -15,7 +15,7 @@ const HowWorks = () => {
       id: 2,
       icon: "/img/pages/become-expert/icons/2.svg",
       no: "02",
-      title: "Add your services",
+      title: "Look for Departures",
       lineIcon: "/img/pages/become-expert/lines/2.svg",
       isLineIcon: "yes",
     },
@@ -23,7 +23,7 @@ const HowWorks = () => {
       id: 3,
       icon: "/img/pages/become-expert/icons/3.svg",
       no: "03",
-      title: "Get bookings",
+      title: "Book Your Journey",
       lineIcon: "",
       isLineIcon: "no",
     },
@@ -34,10 +34,10 @@ const HowWorks = () => {
         <React.Fragment key={item.id}>
           <div className="col-xl-2 col-lg-3 col-md-6">
             <div className="d-flex flex-column items-center text-center">
-              <div className="relative size-120 flex-center rounded-full bg-green-1">
+              <div className="relative size-120 flex-center rounded-full bg-blue-2">
                 <Image width={50} height={50} src={item.icon} alt="image" />
                 <div className="side-badge">
-                  <div className="size-40 flex-center rounded-full bg-yellow-1">
+                  <div className="size-40 flex-center rounded-full bg-blue-2">
                     <span className="text-15 fw-500">{item.no}</span>
                   </div>
                 </div>

@@ -33,11 +33,11 @@ const Blog = () => {
                 href={`/`}
                 className="blogCard -type-1 d-flex items-center"
               >
-                <div className="blogCard__image size-130 rounded-8">
+                <div className="blogCard__image size-100 rounded-8">
                   <img
                     src={item.img}
                     alt="image"
-                    className="object-cover size-130"
+                    className="object-cover size-100"
                   />
                 </div>
                 <div className="ml-24">

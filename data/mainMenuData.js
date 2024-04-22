@@ -87,6 +87,128 @@ export const companyItems = [
   },
 ];
 
+
+export const dealsItems = [
+  {
+    name: "Current Offers",
+    routePath: "/deals/current-offers",
+  },
+  {
+    name: "Up To 25% Off (Group)",
+    routePath: "/deals/group-discount",
+  },
+  {
+    name: "Last Minute travel deals",
+    routePath: "/deals/last-minute-travel-deals",
+  },
+  {
+    name: "Book two trip get 10% Up",
+    routePath: "/deals/book-two-trip-get-discount",
+  },
+];
+
+export const activityItems = [
+  {
+    name: "Trekking &Hiking  In Nepal",
+    routePath: "/deals/current-offers",
+  },
+  {
+    name: "Expedition Journey",
+    routePath: "/deals/group-discount",
+  },
+  {
+    name: "Destination Unknown:Nepal's Secret Sojourn",
+    routePath: "/deals/last-minute-travel-deals",
+  },
+  {
+    name: "Cultural Tour and Sightseeing",
+    routePath: "/deals/book-two-trip-get-discount",
+  },
+  {
+    name: "Ice Climbing",
+    routePath: "/deals/current-offers",
+  },
+  {
+    name: "Multi Activity",
+    routePath: "/deals/group-discount",
+  },
+  {
+    name: "Motorbike Tour",
+    routePath: "/deals/last-minute-travel-deals",
+  },
+  {
+    name: "Spiritual Trek",
+    routePath: "/deals/book-two-trip-get-discount",
+  },
+  {
+    name: "Pilmigrage Tour",
+    routePath: "/deals/current-offers",
+  },
+  {
+    name: "Yoga Expedition",
+    routePath: "/deals/group-discount",
+  },
+  {
+    name: "Meditation Retreat",
+    routePath: "/deals/last-minute-travel-deals",
+  },
+  {
+    name: "Great Himalaya Trail",
+    routePath: "/deals/book-two-trip-get-discount",
+  },
+  {
+    name: "Cycling and Mountain Biking",
+    routePath: "/deals/current-offers",
+  },
+  {
+    name: "Luxury Treks",
+    routePath: "/deals/group-discount",
+  },
+  {
+    name: "Luxury Tours",
+    routePath: "/deals/last-minute-travel-deals",
+  },
+  {
+    name: "Day Hike Tours",
+    routePath: "/deals/book-two-trip-get-discount",
+  },
+];
+
+
+
+export const resourcesItems = [
+  {
+    name: "About Us",
+    routePath: "/deals/current-offers",
+  },
+  {
+    name: "Why Nepal Haven?",
+    routePath: "/deals/group-discount",
+  },
+  {
+    name: "Visa Information ",
+    routePath: "/deals/last-minute-travel-deals",
+  },
+  {
+    name: "Trip Insurance",
+    routePath: "/deals/book-two-trip-get-discount",
+  },
+  {
+    name: "Nepal Haven Gear Guide",
+    routePath: "/deals/current-offers",
+  },
+  {
+    name: "Training for Your Hike",
+    routePath: "/deals/group-discount",
+  },
+  {
+    name: "Blogs",
+    routePath: "/blogs",
+  },
+
+];
+
+
 export const dashboardItems = [
   {
     name: "Dashboard",
@@ -130,7 +252,7 @@ export const dashboardItems = [
   },
 ];
 
-export const categorieMegaMenuItems = [
+export const categorieMegaMenuItemsNepal = [
   {
     id: 1,
     menuCol: [
@@ -237,42 +359,25 @@ export const categorieMegaMenuItems = [
       },
     ],
   },
+];
+export const categorieMegaMenuItemsTibet = [
   {
-    id: 3,
+    id: 1,
     menuCol: [
       {
         id: 1,
-        megaBanner: "/img/backgrounds/9.png",
-        title: "Things to do on your activity",
-        btnText: "See Activity",
-        btnRoute: "/packages/manaslu-circuit-trek",
+        megaBanner: "/img/backgrounds/7.png",
+        title: "Trekking Packages in Tibet",
+        btnText: "See Package",
+        btnRoute: "/packages/tibet-advance-everest-base-camp",
         menuItems: [
           {
             id: 1,
-            title: "Activity List",
+            title: "Trekking Packages",
             menuList: [
               {
-                name: "Activity List v1",
-                routePath: "/packages/manaslu-circuit-trek",
-              },
-              {
-                name: "Activity List v2",
-                routePath: "/packages/manaslu-circuit-trek",
-              },
-            ],
-          },
-          {
-            id: 2,
-            title: "Activity Pages",
-            menuList: [
-              {
-                name: "Activity Map",
-                routePath: "/packages/manaslu-circuit-trek",
-              },
-              {
-                name: "Activity Single",
-                routePath: "activity-single",
-                routePath: "/packages/manaslu-circuit-trek",
+                name: "Tibet Advance Everest Base Camp",
+                routePath: "/packages/tibet-advance-everest-base-camp",
               },
             ],
           },
@@ -281,40 +386,26 @@ export const categorieMegaMenuItems = [
     ],
   },
   {
-    id: 4,
+    id: 2,
     menuCol: [
       {
         id: 1,
-        megaBanner: "/img/backgrounds/10.png",
-        title: "Things to do on your rentals",
-        btnText: "See Rental",
-        btnRoute:"/packages/manaslu-circuit-trek",
+        megaBanner: "/img/backgrounds/8.png",
+        title: "Climbing and Expedition",
+        btnText: "See Package",
+        btnRoute: "/packages/manaslu-circuit-trek",
         menuItems: [
           {
             id: 1,
-            title: "Rental List",
+            title: "Tour List",
             menuList: [
               {
-                name: "Rental List v1",
-                routePath: "/packages/manaslu-circuit-trek",
+                name: "Cho Oyo Expedition",
+                routePath: "/packages/cho-oyo-expedition",
               },
               {
-                name: "Rental List v2",
-                routePath: "/packages/manaslu-circuit-trek",
-              },
-            ],
-          },
-          {
-            id: 2,
-            title: "Rental Pages",
-            menuList: [
-              {
-                name: "Rental Map",
-                routePath: "/packages/manaslu-circuit-trek",
-              },
-              {
-                name: "Rental Single",
-                routePath:"/packages/manaslu-circuit-trek",
+                name: "Shishapangma Expedition",
+                routePath: "/packages/shishapangma-expedition",
               },
             ],
           },
@@ -322,108 +413,30 @@ export const categorieMegaMenuItems = [
       },
     ],
   },
+];
+
+export const categorieMegaMenuItemsBhutan = [
   {
-    id: 5,
+    id: 1,
     menuCol: [
       {
         id: 1,
-        megaBanner: "/img/backgrounds/5.png",
-        title: "Things to do on your Next Car",
-        btnText: "See Car",
-        btnRoute: "/packages/manaslu-circuit-trek",
+        megaBanner: "/img/backgrounds/7.png",
+        title: "Trekking Packages in Bhutan",
+        btnText: "See Hotel",
+        btnRoute: "/bhutan",
         menuItems: [
           {
             id: 1,
-            title: "Car List",
+            title: "Trekking Packages",
             menuList: [
               {
-                name: "Car List v1",
-                routePath: "/packages/manaslu-circuit-trek",
+                name: "Druk Path Trek",
+                routePath: "/packages/druk-path-trek",
               },
               {
-                name: "Car List v2",
-                routePath: "/packages/manaslu-circuit-trek",
-              },
-            ],
-          },
-          {
-            id: 2,
-            title: "Car Pages",
-            menuList: [
-              {
-                name: "Car Map",
-                routePath: "/packages/manaslu-circuit-trek",
-              },
-              {
-                name: "Car Single",
-                routePath: "/packages/manaslu-circuit-trek",
-                routePath: "/packages/manaslu-circuit-trek",
-              },
-            ],
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: 6,
-    menuCol: [
-      {
-        id: 1,
-        megaBanner: "/img/backgrounds/1.png",
-        title: "Things to do on your Cruise",
-        btnText: "See Cruise",
-        btnRoute: "/packages/manaslu-circuit-trek",
-        menuItems: [
-          {
-            id: 1,
-            title: "Cruise List",
-            menuList: [
-              {
-                name: "Cruise List v1",
-                routePath: "/packages/manaslu-circuit-trek",
-              },
-              {
-                name: "Cruise List v2",
-                routePath: "/packages/manaslu-circuit-trek",
-              },
-            ],
-          },
-          {
-            id: 2,
-            title: "Cruise Pages",
-            menuList: [
-              {
-                name: "Cruise Map",
-                routePath: "/packages/manaslu-circuit-trek",
-              },
-              {
-                name: "Cruise Single",
-                routePath: "/packages/manaslu-circuit-trek",
-              },
-            ],
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: 7,
-    menuCol: [
-      {
-        id: 1,
-        megaBanner: "/img/backgrounds/2.png",
-        title: "Things to do on your flights",
-        btnText: "See Flights",
-        btnRoute: "/packages/manaslu-circuit-trek",
-        menuItems: [
-          {
-            id: 1,
-            title: "Flight List",
-            menuList: [
-              {
-                name: "Flight List v1",
-                routePath: "/packages/manaslu-circuit-trek",
+                name: "Chomalhari Trek",
+                routePath:  "/packages/chomalhari-trek",
               },
             ],
           },

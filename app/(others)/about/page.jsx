@@ -27,12 +27,12 @@ const About = () => {
       <DefaultHeader />
       {/* End Header 1 */}
 
-      <section className="section-bg layout-pt-md layout-pb-md">
+      <section className="section-bg layout-pt-lg layout-pb-md">
         <div className="section-bg__item col-12">
           <Image
             width={1920}
             height={400}
-            src="/img/pages/about/1.png"
+            src="/img/backgrounds/bg-2.png"
             alt="image"
             priority
           />
@@ -45,7 +45,7 @@ const About = () => {
               <h1 className="text-50 md:text-25 fw-600 text-white">
                 About NepalHaven.com
               </h1>
-              <div className="text-white mt-15">
+              <div className="text-white">
                 Your trusted companion for quick,easy and safe booking
               </div>
             </div>

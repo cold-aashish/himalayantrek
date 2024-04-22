@@ -21,7 +21,7 @@ const BlogListV1 = () => {
             <DefaultHeader/>
             {/* End Header 1 */}
 
-            <section className="section-bg layout-pt-md layout-pb-md">
+            <section className="section-bg layout-pt-lg layout-pb-md">
                 <div className="section-bg__item col-12">
                     <Image
                         width={1920}
@@ -67,15 +67,16 @@ const BlogListV1 = () => {
             <section className="layout-pb-md">
                 <div className="container">
                     <div className="row">
+
                         <div className="col-lg-4">
-                            <Gallery>
-                                <div className="img-container">
+
+                                <div className="">
                                     <div className="galleryGrid__item">
                                         <Item
                                             original="/img/gallery/1/2.png"
                                             thumbnail="/img/gallery/1/2.png"
-                                            width={450}
-                                            height={375}
+                                            width={800}
+                                            height={500}
                                         >
                                             {({ref, open}) => (
                                                 <img
@@ -89,9 +90,11 @@ const BlogListV1 = () => {
                                             )}
                                         </Item>
                                     </div>
+
                                 </div>
-                            </Gallery>
+
                         </div>
+
                         <div className="col-lg-4">
                             <div className="img-container">
                                 <Image
@@ -136,6 +139,8 @@ const BlogListV1 = () => {
                                 />
                             </div>
                         </div>
+
+
                     </div>
                 </div>
             </section>

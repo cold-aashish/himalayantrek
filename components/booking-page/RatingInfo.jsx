@@ -12,7 +12,7 @@ const RatingInfo = () => {
               </div>
               <div className="col-auto">
                 <h4 className="text-18 lh-15 fw-500">
-                  This property is in high demand!
+                  This tour package is in high demand!
                 </h4>
                 <div className="text-15 lh-15">
                   7 travelers have booked today.
@@ -35,7 +35,7 @@ const RatingInfo = () => {
               </div>
               <div className="col-auto">
                 <h4 className="text-18 lh-15 fw-500">
-                  Limited supply in London for your dates:
+                  Limited supply in Kathmandu for your dates:
                 </h4>
                 <div className="text-15 lh-15">
                   27 four-star hotels like this are already unavailable on our

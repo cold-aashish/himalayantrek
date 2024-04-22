@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const BlockGuide = () => {
   const blockContent = [
     {
@@ -33,11 +35,12 @@ const BlockGuide = () => {
   return (
     <>
       {blockContent.map((item) => (
-        <div
+        <Link
           className="col-lg-3 col-sm-6 pl-0 pr-0 columns"
           data-aos="fade"
           data-aos-delay={item.delayAnim}
           key={item.id}
+          href={`tour-package/2`}
         >
           <div className="featureIcon -type-1 -hover-shadow px-50 py-50 lg:px-24 lg:py-15 border-blockguide">
             <div className="d-flex justify-center">
@@ -51,7 +54,7 @@ const BlockGuide = () => {
               <p className="text-15 mt-10">{item.text}</p>
             </div>
           </div>
-        </div>
+        </Link>
       ))}
     </>
   );

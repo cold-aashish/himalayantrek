@@ -1,5 +1,5 @@
 :root {
-  --font-primary: "Jost", sans-serif;
+  --font-primary: "Mulish", sans-serif;
 }
 
 $breakpoints: (
@@ -60,6 +60,7 @@ $colors: (
   red-1: #d93025,
   red-2: #f1416c,
   red-3: #fff5f8,
+        crimson: #DC143C,
 
   info-1: #cde9f6,
   info-2: #4780aa,
@@ -73,8 +74,11 @@ $colors: (
 );
 
 
-$main-color: rgb(51, 96, 196);
+$main-color: #3360c4;
+$crimson-color: #DC143C;
+$light-main-color: #c5d6ff;
 $second-color: #feb44b;
+$second-color-2: rgba(254, 180, 75, 0.2);
 $main-color-1: rgba(51, 96, 196, 0.1);
 $main-color-2: rgba(51, 96, 196, 0.2);
 $main-color-3: rgba(51, 96, 196, 0.3);

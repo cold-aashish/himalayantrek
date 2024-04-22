@@ -2,7 +2,7 @@ import {toursPackageData} from "@/data/tourPackages";
 
 const TopBreadCrumb = () => {
   return (
-    <section className="py-10 d-flex items-center bg-light-2">
+    <section className="layout-pt-md d-flex items-center bg-light-2">
       <div className="container">
         <div className="row y-gap-10 items-center justify-between">
           <div className="col-auto">
@@ -30,7 +30,7 @@ const TopBreadCrumb = () => {
 
           <div className="col-auto">
             <a href="#" className="text-14 text-blue-1 underline">
-              All Hotel in Kathmandu
+              All Tour Packages in Nepal
             </a>
           </div>
           {/* End col-auto */}

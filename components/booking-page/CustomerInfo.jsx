@@ -16,7 +16,7 @@ const CustomerInfo = () => {
                     <div className="col-lg-6">
                       <label htmlFor="dates" className="text-14 text-light-1">Trip
                         Date <code>*</code> </label>
-                      <input type="date" className="form-control" id="dates"/>
+                      <input type="text" className="form-control" id="dates" readOnly={true}/>
                     </div>
                     <div className="col-lg-6">
                       <label htmlFor="travellers" className="text-14 text-light-1">No. of
@@ -33,7 +33,7 @@ const CustomerInfo = () => {
                     <div className="col-lg-6">
                       <label htmlFor="fname" className="text-14 text-light-1">First Name
                         <code>*</code> </label>
-                      <input type="date" className="form-control mb-3" id="fname"/>
+                      <input type="text" className="form-control mb-3" id="fname"/>
                     </div>
                     <div className="col-lg-6">
                       <label htmlFor="lname" className="text-14 text-light-1">Last
@@ -63,8 +63,18 @@ const CustomerInfo = () => {
                         <option value="UK">UK</option>
                       </select>
                     </div>
+                    <div className="col-lg-6">
+                      <label htmlFor="state" className="text-14 text-light-1">State <code>*</code> </label>
+                      <input type="text" className="form-control mb-3" id="state"
+                             placeholder="Enter Your State"/>
+                    </div>
+                    <div className="col-lg-6">
+                      <label htmlFor="address" className="text-14 text-light-1">Address <code>*</code> </label>
+                      <input type="text" className="form-control mb-3" id="address"
+                             placeholder="Enter Your Address"/>
+                    </div>
                     <div className="col-lg-12">
-                      <label htmlFor="extra-requirements">
+                      <label htmlFor="extra-requirements" className="text-14 text-light-1">
                         Pickup Details/Extra Requirements
                       </label>
                       <textarea name="extra-requirements" id="" rows="5"

@@ -18,7 +18,7 @@ const CategoriesMegaMenu = ({setIsActiveParent}) => {
     "Trekking in Nepal",
     "Climbing & Expedition",
     "Cultural Tours & Sightseeing",
-    "Cycling & Mountain Biking",
+    "Yoga & Pilgrimage",
     "Luxury Treks and Tours",
   ];
 
